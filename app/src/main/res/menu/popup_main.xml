@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- En el order category son numero aleatorios, no importa cual sea, pero no se deb erepetir y deben ser secuenciales-->
+    <item
+        android:title="Guardar"
+        android:orderInCategory="101"
+        android:id="@+id/popmGuarda"
+        ></item>
+
+    <item
+        android:title="Tomar Nueva Foto"
+        android:orderInCategory="102"
+        android:id="@+id/popmTomaFoto"
+        ></item>
+</menu>
